@@ -306,6 +306,7 @@ body{
 }
 .get-quote .btn{
 	color:#fff;
+	width: auto;
 }
 .header .logo {
 	float: left;
@@ -589,7 +590,7 @@ body{
 	Start Hero Area CSS
 =============================*/
 .slider .single-slider {
-	height: 600px;
+	height: 700px;
 	background-size: cover;
 	background-position: center;
 	background-repeat:no-repeat;
@@ -605,7 +606,7 @@ body{
 	font-size: 38px;
 	font-weight: 700;
 	margin: 0;
-	padding: 0;
+	padding-top: 30px;
 	line-height: 42px;
 }
 .slider .single-slider h1 span{
@@ -624,8 +625,10 @@ body{
 	background:#1a76d1;
 	font-weight:500;
 	display:inline-block;
+	width: auto;
 	margin:0;
 	margin-right:5px;
+	padding: 9px;
 }
 .slider .single-slider .btn:last-child{
 	margin:0;
@@ -633,9 +636,13 @@ body{
 .slider .single-slider .btn.primary{
 	background:#2C2D3F;
 	color:#fff;
+	width: auto;
+	padding: 9px;
 }
 .slider .single-slider .btn.primary:before{
 	background:#1A76D1;
+	width: auto;
+	padding: 9px;
 }
 .slider .owl-carousel .owl-nav {
 	margin: 0;
@@ -664,6 +671,7 @@ body{
 	background:#2C2D3F;
 	color:#fff;
 }
+
 .slider .owl-carousel .owl-controls .owl-nav .owl-prev{
 	left:20px;
 }
@@ -681,6 +689,17 @@ body{
 .owl-item.active .single-slider .button{
     animation: fadeInDown 1s both 1.5s;
 }
+
+/* Standard syntax for a mobile-first approach */
+@media screen and (min-width: 768px) {
+	/* CSS rules for screens 768px and wider (Tablets/Desktops) */
+  }
+  
+  /* Modern range syntax (supported in newer browsers) */
+  @media (width >= 768px) {
+	/* Simplified syntax for screen width */
+  }
+  
 /*===========================
 	End Hero Area CSS
 =============================*/
